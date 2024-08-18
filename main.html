@@ -1,16 +1,93 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        img {
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 10px;
+        }
+
+        a {
+            color: #0077b5;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #skills, #projects {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0077b5;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 18px;
+            padding: 5px 0;
+        }
+
+        li::before {
+            content: "•";
+            color: #0077b5;
+            padding-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <img src="https://media.licdn.com/dms/image/D4D03AQH1bJ7kmBnUfQ/profile-displayphoto-shrink_400_400/0/1686300777748?e=1729728000&v=beta&t=0hbe5AiFlY5G2lAfjZvwb23rRFTyhi5-hAEgfMtDnck" alt="My photo" height="200" width="200">
+    <h1>Shivam Birla</h1>
+    <a href="https://www.linkedin.com/in/shivam-birla-20cse/" target="_blank">LinkedIn</a>
+    <section id="skills">
+        <h2>Skills:</h2>
+        <ul>
+            <li>C++</li>
+            <li>DSA</li>
+            <li>Javascript</li>
+            <li>HTML and CSS</li>
+            <li>NodeJs and Express.js</li>
+            <li>MongoDb</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects:</h2>
+        <ul>
+            <li>Personal Portfolio Website</li>
+            <li>Reelpulse: Movies Details Website</li>
+            <li>Wanderlust: Accommodation Listing Website</li>
+        </ul>
+    </section>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
